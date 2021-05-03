@@ -1,0 +1,17 @@
+Microservice lib for service discovery
+
+Eureka
+Ribbon
+Hysterix
+Zuul
+
+from video 19 we make eureka server:- https://www.youtube.com/watch?v=GTM2J0nYmbs
+
+https://www.youtube.com/watch?v=SvZ98jLVdM8
+
+https://github.com/koushikkothagal/spring-boot-microservices-workshop
+
+https://www.youtube.com/watch?v=z8kfFbfGGME
+
+
+ 
