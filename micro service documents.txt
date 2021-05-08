@@ -14,4 +14,10 @@ https://github.com/koushikkothagal/spring-boot-microservices-workshop
 https://www.youtube.com/watch?v=z8kfFbfGGME
 
 
+git add .
+
+git commit -m "aws sample project"
+
+git push -u origin master
+
  
