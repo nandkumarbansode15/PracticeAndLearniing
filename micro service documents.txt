@@ -20,4 +20,36 @@ git commit -m "aws sample project"
 
 git push -u origin master
 
+
+---------mongodb--------------
+
+1) download location for 32 bit.
+
+https://fastdl.mongodb.org/win32/mongodb-win32-i386-3.2.21-signed.msi
+
+2) server start command
+
+mongod --storageEngine=mmapv1
+
+3) mongo db CRUD operations.(https://docs.mongodb.com/manual/crud/)
+	Here Taluka is collection name.
+
+		1) select :- 
+				db.Taluka.find({"name":"Shrirampur"});
  
+		2) insert:- 
+		
+		db.Taluka.insertOne({ "_id" : 2, "name" : "Rahuri", "distName" : "AhemadNagar", "stateName" : "Maharashtra",
+		"totalPopulation" : 300000, "noOfVillages" : 34 })
+		
+		3) update:-
+		
+		db.Taluka.updateOne({"_id" : 2},{$set:{"noOfATMs" : 20}});
+		
+		4) delete:-
+		
+		db.Taluka.deleteMany({ "totalPopulation" : "20000" })
+
+		
+		
+		
